@@ -49,8 +49,8 @@
   } catch (err) {
     sounds = [
       "aaah.mp3","airhorn.mp3","attention.mp3","67.mp3","Hema.mp3",
-      "Ik niet.ogg","Lit.ogg","Nou.ogg","Siren.mp3","Stfu.mp3",
-      "Vasanta.ogg","croissant.ogg","damn.mp3","dududu.mp3","explosion-sound.mp3"
+      "Ik niet.mp3","Lit.mp3","Nou.mp3","Siren.mp3","Stfu.mp3",
+      "Vasanta.mp3","croissant.mp3","damn.mp3","dududu.mp3","explosion-sound.mp3"
     ];
   }
 
