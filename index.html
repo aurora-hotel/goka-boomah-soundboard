@@ -7,14 +7,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <main class="container">
+    <h1>💥 Goka Boomah Soundboard 💥</h1>
 
-  <h1>💥 Goka Boomah 💥</h1>
+    <div id="controls" class="controls">
+      <input id="filter" placeholder="Filter sounds..." aria-label="Filter sounds" />
+      <button id="stopAll">🛑 Stop alles</button>
+    </div>
 
-  <button onclick="play('goka_boomah.mp3')">Goka Boomah!</button>
-  <button onclick="play('badum_tsss.mp3')">Ba-dum tsss</button>
-  <button onclick="play('thats_what_she_said.mp3')">That’s what she says</button>
-  <button onclick="play('sounds/explosion-sound.mp3')">Explosion</button>
-  <button onclick="stopAll()">🛑 Stop</button>
+    <div id="board" class="board" aria-live="polite"></div>
+
+    <footer class="footer">
+      <small>Bestanden uit de map <code>sounds/</code>. Voeg extra geluiden toe aan <code>sounds/</code> en run het script of update <code>sounds/list.json</code>.</small>
+    </footer>
+  </main>
 
   <script src="app.js"></script>
 </body>
